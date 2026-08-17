@@ -1,0 +1,8 @@
+chess
+pygame
+pytest
+# Stockfish n'est PAS un paquet pip : c'est un binaire à installer
+# séparément (apt install stockfish / brew install stockfish /
+# téléchargement direct sur stockfishchess.org), puis à indiquer via
+# la variable d'environnement STOCKFISH_PATH si le binaire n'est pas
+# déjà nommé "stockfish" sur le PATH système.
